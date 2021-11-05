@@ -21,13 +21,12 @@ Estos son los pasos a seguir para utilizar la api:
 + Clonar
 + Instalar modulos: npm i
 + Para iniciar el proyecto debemos hacer lo siguiente:
-    * npm run build 
-    * npm run dev o npm start
+    * npm run dev
 
 + Para unit test 
-    * eliminar del constructor de server la funcion start() ya que genera conflictos de puerto (no logre solucionar)
-    * npm run test o npm run test:coverage
-
+    * comentar la funcion start() el constructor de la clase Server, ya que genera conflictos de puerto
+    * en otra terminal npm run test o npm run test:coverage
+    
 
 Saludos.
 Atte. Max.

@@ -1,18 +1,15 @@
 {
-  "name": "server",
+  "name": "primos",
   "version": "1.0.0",
-  "description": "Proyecto-Numeros-Primos",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon build/src/index.js",
-    "test": "jest --detectOpenHandles --forceExit",
-    "test:coverage": "jest --coverage --detectOpenHandles --watchAll --maxWorkers=1",
-    "build": "tsc",
-    "build:dev": "tsc -w", 
-    "dev": "nodemon src/index.js"
+    "start": "nodemon build",
+    "dev": "concurrently \"tsc\" \"nodemon build/index.js\" ",
+    "test": "jest --runInBand --coverage --detectOpenHandles --forceExit",
+    "test:coverage": "jest --coverage --detectOpenHandles --watchAll --maxWorkers=1"
   },
-  "keywords": [],
-  "author": "Max",
+  "author": "max",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -29,6 +26,7 @@
     "@types/express": "^4.17.6",
     "@types/jest": "^27.0.2",
     "@types/morgan": "^1.9.1",
+    "concurrently": "^6.3.0",
     "jest": "^27.3.1",
     "nodemon": "^2.0.4",
     "supertest": "^6.1.6",
