@@ -10,7 +10,7 @@ Criterios de evaluación:
 - Proyecto en NodeJS (excluyente) - OK
 - Utilizar Express para exponer un api rest (excluyente) - OK
 - Aplicar buenas prácticas de desarrollo (excluyente) - OK
-- Pruebas unitarias (excluyente) - OK (hay un problema con el puerto)
+- Pruebas unitarias (excluyente) - OK
 - Validación de datos de entrada (excluyente) - OK
 - Utilización de módulos npm - OK
 
