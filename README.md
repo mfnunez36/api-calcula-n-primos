@@ -13,7 +13,6 @@ Criterios de evaluación:
 - Pruebas unitarias (excluyente) - OK (hay un problema con el puerto)
 - Validación de datos de entrada (excluyente) - OK
 - Utilización de módulos npm - OK
-- Dockerizacion del proyecto - NOK
 
 
 Estos son los pasos a seguir para utilizar la api:
@@ -29,4 +28,3 @@ Estos son los pasos a seguir para utilizar la api:
     
 
 Saludos.
-Atte. Max.
